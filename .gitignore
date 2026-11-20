@@ -1,0 +1,14 @@
+# Claude Code / UI UX Pro Max skill files
+.claude/
+ui-ux-pro-max/
+design-system/
+
+# Archives
+*.zip
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

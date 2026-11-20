@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | College of Information and Computer Studies – DLSU-D</title>
+  <meta name="description" content="CICS at De La Salle University – Dasmariñas: BS Information Technology and BS Computer Science programs.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500;600;700&family=Open+Sans:wght@400;600;700;800&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- ===== SVG ICON SPRITE (Lucide-style icons, used with <use href="#i-name">) ===== -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></symbol>
+    <symbol id="i-monitor" viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></symbol>
+    <symbol id="i-cpu" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><path d="M9 1v3M15 1v3M9 20v3M15 20v3M20 9h3M20 14h3M1 9h3M1 14h3"/></symbol>
+    <symbol id="i-award" viewBox="0 0 24 24"><circle cx="12" cy="8" r="6"/><path d="M15.48 12.89 17 22l-5-3-5 3 1.52-9.11"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></symbol>
+    <symbol id="i-cap" viewBox="0 0 24 24"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></symbol>
+    <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></symbol>
+    <symbol id="i-code" viewBox="0 0 24 24"><path d="m16 18 6-6-6-6M8 6l-6 6 6 6"/></symbol>
+    <symbol id="i-game" viewBox="0 0 24 24"><rect x="2" y="6" width="20" height="12" rx="2"/><path d="M6 12h4M8 10v4M15 13h.01M18 11h.01"/></symbol>
+    <symbol id="i-bot" viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="10" rx="2"/><circle cx="12" cy="5" r="2"/><path d="M12 7v4M8 16h.01M16 16h.01"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 5L2 7"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></symbol>
+    <symbol id="i-file" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M16 13H8M16 17H8M10 9H8"/></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></symbol>
+    <symbol id="i-compass" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="m16.24 7.76-2.12 6.36-6.36 2.12 2.12-6.36z"/></symbol>
+    <symbol id="i-clipboard" viewBox="0 0 24 24"><rect x="8" y="2" width="8" height="4" rx="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2M12 11h4M12 16h4M8 11h.01M8 16h.01"/></symbol>
+    <symbol id="i-briefcase" viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></symbol>
+    <symbol id="i-book" viewBox="0 0 24 24"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2zM22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></symbol>
+    <symbol id="i-coins" viewBox="0 0 24 24"><circle cx="8" cy="8" r="6"/><path d="M18.09 10.37A6 6 0 1 1 10.34 18M7 6h1v4M16.71 13.88l.7.71-2.82 2.82"/></symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></symbol>
+    <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></symbol>
+    <symbol id="i-send" viewBox="0 0 24 24"><path d="m22 2-7 20-4-9-9-4ZM22 2 11 13"/></symbol>
+    <symbol id="i-facebook" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></symbol>
+    <symbol id="i-youtube" viewBox="0 0 24 24"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"/><path d="m10 15 5-3-5-3z"/></symbol>
+    <symbol id="i-linkedin" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></symbol>
+  </svg>
+
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- ===== UTILITY BAR ===== -->
+  <div class="utility-bar on-dark">
+    <div class="container">
+      <span>De La Salle University – Dasmariñas</span>
+      <ul>
+        <li><svg class="icon icon--sm" aria-hidden="true"><use href="#i-phone"/></svg><a href="tel:+63464811900">+63 (46) 481.1900 loc. 3073</a></li>
+        <li><svg class="icon icon--sm" aria-hidden="true"><use href="#i-mail"/></svg><a href="mailto:itdchair@dlsud.edu.ph">itdchair@dlsud.edu.ph</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ===== HEADER / NAVIGATION ===== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand" aria-label="CICS home">
+        <img class="brand-logo" src="images/cics-logo.webp" alt="" width="48" height="48">
+        <span class="brand-text">
+          <strong>College of Information &amp; Computer Studies</strong>
+          <span>De La Salle University – Dasmariñas</span>
+        </span>
+      </a>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-controls="site-nav">
+      <label for="nav-toggle" class="nav-toggle-btn">
+        <svg class="icon icon-open" aria-hidden="true"><use href="#i-menu"/></svg>
+        <svg class="icon icon-close" aria-hidden="true"><use href="#i-x"/></svg>
+        Menu
+      </label>
+
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="programs.html">Programs</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ===== 1. COLLEGE BANNER (Hero: mission + credibility) ===== -->
+    <section class="hero on-dark" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">College of Information and Computer Studies</p>
+          <h1 id="hero-title">Shaping a better global digital landscape.</h1>
+          <p class="hero-lede">A leader in technological education, grounded in Lasallian values and committed to academic excellence, innovation, and the highest ethical standards.</p>
+          <div class="btn-row">
+            <a href="about.html" class="btn btn--primary">Learn More <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+            <a href="programs.html" class="btn btn--ghost">Explore Programs</a>
+          </div>
+        </div>
+
+        <aside class="proof" aria-label="Accreditations">
+          <p class="proof-title">Accreditations</p>
+          <ul>
+            <li>
+              <svg class="icon" aria-hidden="true"><use href="#i-shield"/></svg>
+              <div><strong>PAASCU Level II</strong><span>BS Information Technology</span></div>
+            </li>
+            <li>
+              <svg class="icon" aria-hidden="true"><use href="#i-award"/></svg>
+              <div><strong>CHED Center of Development</strong><span>in Information Technology</span></div>
+            </li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ===== 2. ABOUT THE COLLEGE (Quick intro + stats) ===== -->
+    <section class="section" aria-labelledby="about-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="section-label">01 — About the College</p>
+          <h2 id="about-title">Technology education with purpose.</h2>
+        </div>
+
+        <div class="split">
+          <div class="prose">
+            <p>The College of Information and Computer Studies (CICS) is a leader in technological education, committed to academic excellence, innovation, and the highest ethical standards.</p>
+            <p>Grounded in Lasallian values, CICS fosters a dynamic, inclusive environment where students, faculty, and industry partners collaborate on technological challenges. It aims to inspire and empower future IT leaders and shape a better global digital landscape.</p>
+            <a href="about.html" class="text-link">More about CICS <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </div>
+          <div class="stats">
+            <div class="stat"><strong>2</strong><span>Undergraduate degree programs</span></div>
+            <div class="stat"><strong>4</strong><span>Specialization tracks</span></div>
+            <div class="stat"><strong>486</strong><span>Minimum BSIT practicum hours</span></div>
+            <div class="stat"><strong>240</strong><span>Minimum BSCS practicum hours</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 3. PROGRAMS OVERVIEW ===== -->
+    <section class="section section--muted" aria-labelledby="programs-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="section-label">02 — Programs</p>
+          <h2 id="programs-title">Choose your path in computing.</h2>
+        </div>
+
+        <div class="grid grid--2">
+          <article class="card card--link program-card">
+            <span class="tag">Undergraduate · BSIT</span>
+            <h3>BS Information Technology</h3>
+            <p class="meta">Training in the latest IT concepts and applications, with a practical approach to the IT industry.</p>
+            <ul>
+              <li><svg class="icon icon--sm" aria-hidden="true"><use href="#i-code"/></svg>Specialization in Web Development</li>
+              <li><svg class="icon icon--sm" aria-hidden="true"><use href="#i-globe"/></svg>Specialization in Network Technology</li>
+            </ul>
+            <a href="programs.html#bsit" class="text-link stretched">View BSIT program <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </article>
+
+          <article class="card card--link program-card">
+            <span class="tag">Undergraduate · BSCS</span>
+            <h3>BS Computer Science</h3>
+            <p class="meta">Computing theory and applications, abstract reasoning, analytical thinking, and research.</p>
+            <ul>
+              <li><svg class="icon icon--sm" aria-hidden="true"><use href="#i-game"/></svg>Specialization in Game Development</li>
+              <li><svg class="icon icon--sm" aria-hidden="true"><use href="#i-bot"/></svg>Specialization in Intelligent Systems</li>
+            </ul>
+            <a href="programs.html#bscs" class="text-link stretched">View BSCS program <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 4. ANNOUNCEMENTS & EVENTS ===== -->
+    <section class="section" aria-labelledby="news-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="section-label">03 — Conferences &amp; Academic Events</p>
+          <h2 id="news-title">Announcements &amp; events.</h2>
+        </div>
+
+        <ul class="news-list">
+          <li class="news-item">
+            <span class="news-type">Conference</span>
+            <h3>Computing Society of the Philippines</h3>
+          </li>
+          <li class="news-item">
+            <span class="news-type">Conference</span>
+            <h3>ICITE</h3>
+          </li>
+          <li class="news-item">
+            <span class="news-type">Conference</span>
+            <h3>Philippine Society of IT Educators</h3>
+          </li>
+          <li class="news-item">
+            <span class="news-type">Academic event</span>
+            <h3>CISCO Networking Academy</h3>
+          </li>
+          <li class="news-item">
+            <span class="news-type">Academic event</span>
+            <h3>Integrated Society of Information Technology Enthusiasts</h3>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== 5. STUDENT ACHIEVEMENTS ===== -->
+    <section class="section section--muted" aria-labelledby="achieve-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="section-label">04 — Student Achievements</p>
+          <h2 id="achieve-title">Student achievements.</h2>
+        </div>
+        <p class="placeholder">[To add: student awards, certifications, and competition results.]</p>
+      </div>
+    </section>
+
+    <!-- ===== 6. CALL TO ACTION ===== -->
+    <section class="cta-band on-dark" aria-labelledby="cta-title">
+      <div class="container">
+        <div>
+          <h2 id="cta-title">Start your journey in computing.</h2>
+          <p>Apply online, find the campus, or reach the DLSU-D Admissions Office.</p>
+        </div>
+        <div class="btn-row">
+          <a href="https://www.dlsud.edu.ph/admissions/online-application" class="btn btn--primary">Apply Now</a>
+          <a href="https://www.google.com/maps/search/?api=1&amp;query=De+La+Salle+University+Dasmarinas" class="btn btn--ghost">Visit Campus</a>
+          <a href="https://www.dlsud.edu.ph/admissions/contact-admission" class="btn btn--ghost">Talk to a Counselor</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer on-dark">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <strong>College of Information &amp; Computer Studies</strong>
+        <p>Room 312, Paulo Campos Hall, De La Salle University – Dasmariñas, Brgy. Fatima 1, Dasmariñas City, Cavite, Philippines 4115</p>
+      </div>
+      <nav aria-label="Footer">
+        <h2>Explore</h2>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="programs.html">Programs</a></li>
+        </ul>
+      </nav>
+      <div>
+        <h2>Get in touch</h2>
+        <ul>
+          <li><a href="tel:+63464811900"><svg class="icon icon--sm" aria-hidden="true"><use href="#i-phone"/></svg>Cavite +63 (46) 481.1900 loc. 3073</a></li>
+          <li><a href="tel:+63287795180"><svg class="icon icon--sm" aria-hidden="true"><use href="#i-phone"/></svg>Manila +63 (2) 8779.5180</a></li>
+          <li><a href="mailto:itdchair@dlsud.edu.ph"><svg class="icon icon--sm" aria-hidden="true"><use href="#i-mail"/></svg>itdchair@dlsud.edu.ph</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      © 2026 College of Information and Computer Studies, De La Salle University – Dasmariñas.
+    </div>
+  </footer>
+</body>
+</html>
